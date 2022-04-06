@@ -51,6 +51,6 @@ else
 	git tag v$(version)
 	git push origin master
 	git push origin --tags
-	npm publish --scope=public
+	npm publish --access public
 	@echo "\033[32mv${version} released\033[0;39m"
 endif
