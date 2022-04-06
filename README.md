@@ -1,7 +1,7 @@
 # sifter.js
 
-[![NPM version](http://img.shields.io/npm/v/sifter.svg?style=flat)](https://www.npmjs.org/package/sifter)
-[![Installs](http://img.shields.io/npm/dm/sifter.svg?style=flat)](https://www.npmjs.org/package/sifter)
+[![NPM version](http://img.shields.io/npm/v/@selectize/sifter.svg?style=flat)](https://www.npmjs.org/package/@selectize/sifter)
+[![Installs](http://img.shields.io/npm/dm/@selectize/sifter.svg?style=flat)](https://www.npmjs.org/package/@selectize/sifter)
 
 Sifter is a client and server-side library (via [UMD](https://github.com/umdjs/umd)) for textually searching arrays and hashes of objects by property – or multiple properties. It's designed specifically for autocomplete. The process is three-step: _score_, _filter_, _sort_.
 
