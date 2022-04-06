@@ -8,7 +8,7 @@ UGLIFYJS=node_modules/.bin/uglifyjs
 
 OUT=sifter.js
 OUT_MIN=sifter.min.js
-BANNER=/*! sifter.js | https://github.com/brianreavis/sifter.js | Apache License (v2) */
+BANNER=/*! sifter.js | https://github.com/risadams/sifter.js | Apache License (v2) */
 
 all: compile
 
@@ -52,6 +52,6 @@ else
 	git tag v$(version)
 	git push origin master
 	git push origin --tags
-	npm publish
+	npm publish --scope=public
 	@echo "\033[32mv${version} released\033[0;39m"
 endif

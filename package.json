@@ -1,5 +1,5 @@
 {
-  "name": "sifter",
+  "name": "@selectize/sifter",
   "keywords": [
     "search",
     "filter",
@@ -11,13 +11,13 @@
     "autocomplete"
   ],
   "description": "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "license": "Apache-2.0",
   "author": "Brian Reavis <brian@thirdroute.com>",
   "main": "./sifter.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/brianreavis/sifter.js.git"
+    "url": "git://github.com/risadams/sifter.js.git"
   },
   "scripts": {
     "test": "mocha -R list"
@@ -26,18 +26,18 @@
     "sifter": "./bin/sifter.js"
   },
   "dependencies": {
-    "optimist": "^0.6.1",
-    "cardinal": "^1.0.0",
-    "async": "^2.6.0",
+    "async": "^3.2.3",
+    "cardinal": "^2.1.1",
+    "csv-parse": "^5.0.4",
     "humanize": "^0.0.9",
-    "csv-parse": "^4.6.5"
+    "optimist": "^0.5.2"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.1.1",
     "istanbul": "^0.4.5",
-    "mocha": "^4.0.1",
+    "mocha": "^9.2.2",
     "mocha-istanbul": "^0.3.0",
     "mocha-lcov-reporter": "^1.3.0",
-    "uglify-js": "^3.2.0"
+    "uglify-js": "^3.15.3"
   }
 }
