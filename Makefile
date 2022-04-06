@@ -44,7 +44,6 @@ ifeq ($(strip $(version)),)
 	@echo "\033[1;30mmake release version=1.0.0\033[0;39m"
 else
 	sed -i.bak 's/"version": "[^"]*"/"version": "$(version)"/' package.json
-	sed -i.bak 's/"version": "[^"]*"/"version": "$(version)"/' bower.json
 	rm *.bak
 	make compile
 	git add .
